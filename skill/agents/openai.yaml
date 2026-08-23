@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChatGPT Pro Planning"
+  short_description: "调用网页版 ChatGPT Pro 做任务前期分析与规划"
+  default_prompt: "使用 $chatgpt-pro-planning 先通过网页版 ChatGPT Pro 分析并规划这个任务。"
