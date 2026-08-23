@@ -24,7 +24,7 @@ Codex remains responsible for:
 Paste this into Codex:
 
 ```text
-$skill-installer install the skill from https://github.com/Ericwong5021/chatgpt-pro-planning-skill/tree/main/skill
+$skill-installer install the skill from https://github.com/Ericwong5021/chatgpt-pro-planning-skill/tree/main/skills/chatgpt-pro-planning
 ```
 
 ### One-command installer
@@ -116,10 +116,11 @@ The skill never reports a partial answer as success. A failed generation can be 
 ├── README.md
 ├── README.zh-CN.md
 ├── install.sh
-└── skill
-    ├── SKILL.md
-    └── agents
-        └── openai.yaml
+└── skills
+    └── chatgpt-pro-planning
+        ├── SKILL.md
+        └── agents
+            └── openai.yaml
 ```
 
 ## Uninstall

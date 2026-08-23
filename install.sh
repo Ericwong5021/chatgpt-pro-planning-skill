@@ -39,10 +39,10 @@ mkdir -p "${temp_root}/source" "${skills_dir}"
 curl -fsSL "https://github.com/${repo}/archive/${ref}.tar.gz" -o "${temp_root}/archive.tar.gz"
 tar -xzf "${temp_root}/archive.tar.gz" -C "${temp_root}/source"
 
-skill_file="$(find "${temp_root}/source" -type f -path '*/skill/SKILL.md' -print -quit)"
+skill_file="$(find "${temp_root}/source" -type f -path '*/skills/chatgpt-pro-planning/SKILL.md' -print -quit)"
 
 if [[ -z "${skill_file}" ]]; then
-  echo "The downloaded archive does not contain skill/SKILL.md." >&2
+  echo "The downloaded archive does not contain skills/chatgpt-pro-planning/SKILL.md." >&2
   exit 1
 fi
 

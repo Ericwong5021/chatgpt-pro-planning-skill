@@ -24,7 +24,7 @@ Codex 始终负责：
 把下面这句话发送给 Codex：
 
 ```text
-$skill-installer 安装这个 Skill：https://github.com/Ericwong5021/chatgpt-pro-planning-skill/tree/main/skill
+$skill-installer 安装这个 Skill：https://github.com/Ericwong5021/chatgpt-pro-planning-skill/tree/main/skills/chatgpt-pro-planning
 ```
 
 ### 一行安装
@@ -110,10 +110,11 @@ Skill 不会把半截回答报告为成功。只有网页明确提供针对当�
 ├── README.md
 ├── README.zh-CN.md
 ├── install.sh
-└── skill
-    ├── SKILL.md
-    └── agents
-        └── openai.yaml
+└── skills
+    └── chatgpt-pro-planning
+        ├── SKILL.md
+        └── agents
+            └── openai.yaml
 ```
 
 ## 卸载
